@@ -284,7 +284,7 @@ export default function Page() {
             gap: 20, maxWidth: 800, margin: "0 auto",
           }}>
             {[
-              { label: "macOS", value: "26 (Tahoe) or later", icon: "🍎" },
+              { label: "macOS", value: "26 (Tahoe) or later", icon: "🖥️" },
               { label: "Chip", value: "Apple Silicon (M-series)", icon: "⚡" },
               { label: "Price", value: "Free forever", icon: "🎁" },
             ].map(r => (
