@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const DOWNLOAD_URL =
-  "https://github.com/Anuragh33/vani-releases/releases/download/v0.1.2/Vani-0.1.2.dmg";
+  "https://github.com/Anuragh33/Vani/releases/download/v0.1.2/Vani-0.1.2.dmg";
 
 const FEATURES = [
   {
@@ -317,7 +317,7 @@ export default function Home() {
           <span className="hidden md:inline">·</span>
           <a href={DOWNLOAD_URL} className="hover:text-white transition-colors">Download v0.1.2</a>
           <span className="hidden md:inline">·</span>
-          <a href="https://github.com/Anuragh33/vani-releases/releases" className="hover:text-white transition-colors">All Releases</a>
+          <a href="https://github.com/Anuragh33/Vani/releases" className="hover:text-white transition-colors">All Releases</a>
         </div>
       </footer>
 
